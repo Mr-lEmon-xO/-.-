@@ -1,4 +1,3 @@
-/*
 #include <iostream>
 #include <cmath>
 #include <cstdlib>
@@ -8,55 +7,55 @@ int main() {
 	int q;
 	cin >> q;
 	if (q == 0) {
-		cout << "Íóëü";
+		cout << "ÐÑƒÐ»ÑŒ";
 	}
 	else
 	{
 		if (q <= 10000000) {
 			switch (q / 1000000)
 			{
-			case (1):cout << "Îäèí Ìèëèîí";
+			case (1):cout << "ÐžÐ´Ð¸Ð½ ÐœÐ¸Ð»Ð¸Ð¾Ð½";
 				break;
-			case (2):cout << "Äâà Ìèëèîíà";
+			case (2):cout << "Ð”Ð²Ð° ÐœÐ¸Ð»Ð¸Ð¾Ð½Ð°";
 				break;
-			case (3):cout << "Òðè Ìèëèîíà";
+			case (3):cout << "Ð¢Ñ€Ð¸ ÐœÐ¸Ð»Ð¸Ð¾Ð½Ð°";
 				break;
-			case (4):cout << "×åòûðå Ìèëèîíà";
+			case (4):cout << "Ð§ÐµÑ‚Ñ‹Ñ€Ðµ ÐœÐ¸Ð»Ð¸Ð¾Ð½Ð°";
 				break;
-			case (5):cout << "Ïÿòü Ìèëèîíîâ";
+			case (5):cout << "ÐŸÑÑ‚ÑŒ ÐœÐ¸Ð»Ð¸Ð¾Ð½Ð¾Ð²";
 				break;
-			case (6):cout << "Øåñòü Ìèëèîíîâ";
+			case (6):cout << "Ð¨ÐµÑÑ‚ÑŒ ÐœÐ¸Ð»Ð¸Ð¾Ð½Ð¾Ð²";
 				break;
-			case (7): cout << "Ñåìü Ìèëèîíîâ";
+			case (7): cout << "Ð¡ÐµÐ¼ÑŒ ÐœÐ¸Ð»Ð¸Ð¾Ð½Ð¾Ð²";
 				break;
-			case (8): cout << "Âîñåìü Ìèëèîíîâ";
+			case (8): cout << "Ð’Ð¾ÑÐµÐ¼ÑŒ ÐœÐ¸Ð»Ð¸Ð¾Ð½Ð¾Ð²";
 				break;
-			case (9): cout << "Äåâÿòü Ìèëèîíîâ";
+			case (9): cout << "Ð”ÐµÐ²ÑÑ‚ÑŒ ÐœÐ¸Ð»Ð¸Ð¾Ð½Ð¾Ð²";
 				break;
-			case (10): cout << "Äåñÿòü Ìèëèîíîâ";
+			case (10): cout << "Ð”ÐµÑÑÑ‚ÑŒ ÐœÐ¸Ð»Ð¸Ð¾Ð½Ð¾Ð²";
 				break;
 			default: "";
 				break;
 			}
 			switch (q % 1000000 / 100000)
 			{
-			case (1):cout << " Ñòî";
+			case (1):cout << " Ð¡Ñ‚Ð¾";
 				break;
-			case (2):cout << " Äâåñòè";
+			case (2):cout << " Ð”Ð²ÐµÑÑ‚Ð¸";
 				break;
-			case (3):cout << " Òðèñòà";
+			case (3):cout << " Ð¢Ñ€Ð¸ÑÑ‚Ð°";
 				break;
-			case (4):cout << " ×åòûðåñòà";
+			case (4):cout << " Ð§ÐµÑ‚Ñ‹Ñ€ÐµÑÑ‚Ð°";
 				break;
-			case (5):cout << " Ïÿòüñîò";
+			case (5):cout << " ÐŸÑÑ‚ÑŒÑÐ¾Ñ‚";
 				break;
-			case (6):cout << " Øåñòüñîò";
+			case (6):cout << " Ð¨ÐµÑÑ‚ÑŒÑÐ¾Ñ‚";
 				break;
-			case (7): cout << " Ñåìüñîò";
+			case (7): cout << " Ð¡ÐµÐ¼ÑŒÑÐ¾Ñ‚";
 				break;
-			case (8): cout << " Âîñåìüñîò";
+			case (8): cout << " Ð’Ð¾ÑÐµÐ¼ÑŒÑÐ¾Ñ‚";
 				break;
-			case (9): cout << " Äåâÿòèñîò";
+			case (9): cout << " Ð”ÐµÐ²ÑÑ‚Ð¸ÑÐ¾Ñ‚";
 				break;
 			default: "";
 				break;
@@ -64,45 +63,45 @@ int main() {
 			if (q % 100000 / 1000 <= 20)
 			{
 				switch (q % 100000 / 1000) {
-				case (10): cout << " Äåñÿòü";
+				case (10): cout << " Ð”ÐµÑÑÑ‚ÑŒ";
 					break;
-				case (11): cout << " Îäèíàäöàòü";
+				case (11): cout << " ÐžÐ´Ð¸Ð½Ð°Ð´Ñ†Ð°Ñ‚ÑŒ";
 					break;
-				case (12): cout << " Äâåíàäöàòü";
+				case (12): cout << " Ð”Ð²ÐµÐ½Ð°Ð´Ñ†Ð°Ñ‚ÑŒ";
 					break;
-				case (13): cout << " Òðèíàäöàòü";
+				case (13): cout << " Ð¢Ñ€Ð¸Ð½Ð°Ð´Ñ†Ð°Ñ‚ÑŒ";
 					break;
-				case (14): cout << " ×åòûðíàäöàòü";
+				case (14): cout << " Ð§ÐµÑ‚Ñ‹Ñ€Ð½Ð°Ð´Ñ†Ð°Ñ‚ÑŒ";
 					break;
-				case (15): cout << " Ïÿòüíàäöàòü";
+				case (15): cout << " ÐŸÑÑ‚ÑŒÐ½Ð°Ð´Ñ†Ð°Ñ‚ÑŒ";
 					break;
-				case (16): cout << " Øåñòüíàäöàòü";
+				case (16): cout << " Ð¨ÐµÑÑ‚ÑŒÐ½Ð°Ð´Ñ†Ð°Ñ‚ÑŒ";
 					break;
-				case (17): cout << " Ñåìíàäöàòü";
+				case (17): cout << " Ð¡ÐµÐ¼Ð½Ð°Ð´Ñ†Ð°Ñ‚ÑŒ";
 					break;
-				case (18): cout << " Âîñåìíàäöàòü";
+				case (18): cout << " Ð’Ð¾ÑÐµÐ¼Ð½Ð°Ð´Ñ†Ð°Ñ‚ÑŒ";
 					break;
-				case (19): cout << " Äåâÿòíàäöàòü";
+				case (19): cout << " Ð”ÐµÐ²ÑÑ‚Ð½Ð°Ð´Ñ†Ð°Ñ‚ÑŒ";
 					break;
-				case (20): cout << "Äâàäöàòü";
+				case (20): cout << "Ð”Ð²Ð°Ð´Ñ†Ð°Ñ‚ÑŒ";
 				}
 			}
 			else
 			{
 				switch (q % 100000 / 10000) {
-				case (3):cout << " Òðèäöàòü";
+				case (3):cout << " Ð¢Ñ€Ð¸Ð´Ñ†Ð°Ñ‚ÑŒ";
 					break;
-				case (4):cout << " Ñîðîê";
+				case (4):cout << " Ð¡Ð¾Ñ€Ð¾Ðº";
 					break;
-				case (5):cout << " Ïÿòüäåñÿò";
+				case (5):cout << " ÐŸÑÑ‚ÑŒÐ´ÐµÑÑÑ‚";
 					break;
-				case (6):cout << " Øåñòüäåñÿò";
+				case (6):cout << " Ð¨ÐµÑÑ‚ÑŒÐ´ÐµÑÑÑ‚";
 					break;
-				case (7): cout << " Ñåìüäåñÿò";
+				case (7): cout << " Ð¡ÐµÐ¼ÑŒÐ´ÐµÑÑÑ‚";
 					break;
-				case (8): cout << " Âîñåìüäåñÿò";
+				case (8): cout << " Ð’Ð¾ÑÐµÐ¼ÑŒÐ´ÐµÑÑÑ‚";
 					break;
-				case (9): cout << " Äåâÿòèñòî";
+				case (9): cout << " Ð”ÐµÐ²ÑÑ‚Ð¸ÑÑ‚Ð¾";
 					break;
 				default: "";
 					break;
@@ -116,58 +115,58 @@ int main() {
 			{
 				switch (q % 10000 / 1000)
 				{
-				case (1):cout << " Îäíà";
+				case (1):cout << " ÐžÐ´Ð½Ð°";
 					break;
-				case (2):cout << " Äâå";
+				case (2):cout << " Ð”Ð²Ðµ";
 					break;
-				case (3):cout << " Òðè";
+				case (3):cout << " Ð¢Ñ€Ð¸";
 					break;
-				case (4):cout << " ×åòûðå";
+				case (4):cout << " Ð§ÐµÑ‚Ñ‹Ñ€Ðµ";
 					break;
-				case (5):cout << " Ïÿòü";
+				case (5):cout << " ÐŸÑÑ‚ÑŒ";
 					break;
-				case (6):cout << " Øåñòü";
+				case (6):cout << " Ð¨ÐµÑÑ‚ÑŒ";
 					break;
-				case (7): cout << " Ñåìü";
+				case (7): cout << " Ð¡ÐµÐ¼ÑŒ";
 					break;
-				case (8): cout << " Âîñåìü";
+				case (8): cout << " Ð’Ð¾ÑÐµÐ¼ÑŒ";
 					break;
-				case (9): cout << " Äåâÿòü";
+				case (9): cout << " Ð”ÐµÐ²ÑÑ‚ÑŒ";
 					break;
 				default: "";
 					break;
 				}
 			}
 			if (q == 10000 || q == 100000) {
-				cout << " Òûñÿ÷";
+				cout << " Ð¢Ñ‹ÑÑÑ‡";
 			}
 			else
 			{
 				if (q % 100000 / 1000 > 10 && q % 100000 / 1000 < 20) {
-					cout << " Òûñÿ÷";
+					cout << " Ð¢Ñ‹ÑÑÑ‡";
 				}
 				else
 				{
 					if (q >= 1000) {
 						switch (q % 10000 / 1000)
 						{
-						case (1):cout << " Òûñÿ÷à";
+						case (1):cout << " Ð¢Ñ‹ÑÑÑ‡Ð°";
 							break;
-						case (2):cout << " Òûñÿ÷è";
+						case (2):cout << " Ð¢Ñ‹ÑÑÑ‡Ð¸";
 							break;
-						case (3):cout << " Òûñÿ÷è";
+						case (3):cout << " Ð¢Ñ‹ÑÑÑ‡Ð¸";
 							break;
-						case (4):cout << " Òûñÿ÷è";
+						case (4):cout << " Ð¢Ñ‹ÑÑÑ‡Ð¸";
 							break;
-						case (5):cout << " Òûñÿ÷";
+						case (5):cout << " Ð¢Ñ‹ÑÑÑ‡";
 							break;
-						case (6):cout << " Òûñÿ÷";
+						case (6):cout << " Ð¢Ñ‹ÑÑÑ‡";
 							break;
-						case (7): cout << " Òûñÿ÷";
+						case (7): cout << " Ð¢Ñ‹ÑÑÑ‡";
 							break;
-						case (8): cout << " Òûñÿ÷";
+						case (8): cout << " Ð¢Ñ‹ÑÑÑ‡";
 							break;
-						case (9): cout << " Òûñÿ÷";
+						case (9): cout << " Ð¢Ñ‹ÑÑÑ‡";
 							break;
 						default: "";
 							break;
@@ -177,23 +176,23 @@ int main() {
 			}
 			switch (q % 1000 / 100)
 			{
-			case (1):cout << " Ñòî";
+			case (1):cout << " Ð¡Ñ‚Ð¾";
 				break;
-			case (2):cout << " Äâåñòè";
+			case (2):cout << " Ð”Ð²ÐµÑÑ‚Ð¸";
 				break;
-			case (3):cout << " Òðèñòà";
+			case (3):cout << " Ð¢Ñ€Ð¸ÑÑ‚Ð°";
 				break;
-			case (4):cout << " ×åòûðåñòà";
+			case (4):cout << " Ð§ÐµÑ‚Ñ‹Ñ€ÐµÑÑ‚Ð°";
 				break;
-			case (5):cout << " Ïÿòüñîò";
+			case (5):cout << " ÐŸÑÑ‚ÑŒÑÐ¾Ñ‚";
 				break;
-			case (6):cout << " Øåñòüñîò";
+			case (6):cout << " Ð¨ÐµÑÑ‚ÑŒÑÐ¾Ñ‚";
 				break;
-			case (7): cout << " Ñåìüñîò";
+			case (7): cout << " Ð¡ÐµÐ¼ÑŒÑÐ¾Ñ‚";
 				break;
-			case (8): cout << " Âîñåìüñîò";
+			case (8): cout << " Ð’Ð¾ÑÐµÐ¼ÑŒÑÐ¾Ñ‚";
 				break;
-			case (9): cout << " Äåâÿòüñîò";
+			case (9): cout << " Ð”ÐµÐ²ÑÑ‚ÑŒÑÐ¾Ñ‚";
 				break;
 			default: "";
 				break;
@@ -201,23 +200,23 @@ int main() {
 			if (q % 100 < 21 && q % 100 > 10) {
 				switch (q % 10)
 				{
-				case (1):cout << " Îäèíàäöàòü";
+				case (1):cout << " ÐžÐ´Ð¸Ð½Ð°Ð´Ñ†Ð°Ñ‚ÑŒ";
 					break;
-				case (2):cout << " Äâåíàäöàòü";
+				case (2):cout << " Ð”Ð²ÐµÐ½Ð°Ð´Ñ†Ð°Ñ‚ÑŒ";
 					break;
-				case (3):cout << " Òðèíàäöàòü";
+				case (3):cout << " Ð¢Ñ€Ð¸Ð½Ð°Ð´Ñ†Ð°Ñ‚ÑŒ";
 					break;
-				case (4):cout << " ×åòûðíàäöàòü";
+				case (4):cout << " Ð§ÐµÑ‚Ñ‹Ñ€Ð½Ð°Ð´Ñ†Ð°Ñ‚ÑŒ";
 					break;
-				case (5):cout << " Ïÿòíàäöàòü";
+				case (5):cout << " ÐŸÑÑ‚Ð½Ð°Ð´Ñ†Ð°Ñ‚ÑŒ";
 					break;
-				case (6):cout << " Øåñòíàäöàòü";
+				case (6):cout << " Ð¨ÐµÑÑ‚Ð½Ð°Ð´Ñ†Ð°Ñ‚ÑŒ";
 					break;
-				case (7): cout << " Ñåìíàäöàòü";
+				case (7): cout << " Ð¡ÐµÐ¼Ð½Ð°Ð´Ñ†Ð°Ñ‚ÑŒ";
 					break;
-				case (8): cout << " Âîñåìíàäöàòü";
+				case (8): cout << " Ð’Ð¾ÑÐµÐ¼Ð½Ð°Ð´Ñ†Ð°Ñ‚ÑŒ";
 					break;
-				case (9): cout << " Äåâÿòíàäöèòü";
+				case (9): cout << " Ð”ÐµÐ²ÑÑ‚Ð½Ð°Ð´Ñ†Ð¸Ñ‚ÑŒ";
 					break;
 				default:
 					break;
@@ -227,46 +226,46 @@ int main() {
 			{
 				switch (q % 100 / 10)
 				{
-				case (1):cout << " Äåñÿòü";
+				case (1):cout << " Ð”ÐµÑÑÑ‚ÑŒ";
 					break;
-				case (2):cout << " Äâàäöàòü";
+				case (2):cout << " Ð”Ð²Ð°Ð´Ñ†Ð°Ñ‚ÑŒ";
 					break;
-				case (3):cout << " Òðèäöàòü";
+				case (3):cout << " Ð¢Ñ€Ð¸Ð´Ñ†Ð°Ñ‚ÑŒ";
 					break;
-				case (4):cout << " Ñîðîê";
+				case (4):cout << " Ð¡Ð¾Ñ€Ð¾Ðº";
 					break;
-				case (5):cout << " Ïÿòüäåñÿò";
+				case (5):cout << " ÐŸÑÑ‚ÑŒÐ´ÐµÑÑÑ‚";
 					break;
-				case (6):cout << " Øåñòüäåñÿò";
+				case (6):cout << " Ð¨ÐµÑÑ‚ÑŒÐ´ÐµÑÑÑ‚";
 					break;
-				case (7): cout << " Ñåìüäåñÿò";
+				case (7): cout << " Ð¡ÐµÐ¼ÑŒÐ´ÐµÑÑÑ‚";
 					break;
-				case (8): cout << " Âîñåìäåñÿò";
+				case (8): cout << " Ð’Ð¾ÑÐµÐ¼Ð´ÐµÑÑÑ‚";
 					break;
-				case (9): cout << " Äåâíîñòî";
+				case (9): cout << " Ð”ÐµÐ²Ð½Ð¾ÑÑ‚Ð¾";
 					break;
 				default:
 					break;
 				}
 				switch (q % 10)
 				{
-				case (1):cout << " Îäèí";
+				case (1):cout << " ÐžÐ´Ð¸Ð½";
 					break;
-				case (2):cout << " Äâà";
+				case (2):cout << " Ð”Ð²Ð°";
 					break;
-				case (3):cout << " Òðè";
+				case (3):cout << " Ð¢Ñ€Ð¸";
 					break;
-				case (4):cout << " ×åòûðå";
+				case (4):cout << " Ð§ÐµÑ‚Ñ‹Ñ€Ðµ";
 					break;
-				case (5):cout << " Ïÿòü";
+				case (5):cout << " ÐŸÑÑ‚ÑŒ";
 					break;
-				case (6):cout << " Øåñòü";
+				case (6):cout << " Ð¨ÐµÑÑ‚ÑŒ";
 					break;
-				case (7): cout << " Ñåìü";
+				case (7): cout << " Ð¡ÐµÐ¼ÑŒ";
 					break;
-				case (8): cout << " Âîñåìü";
+				case (8): cout << " Ð’Ð¾ÑÐµÐ¼ÑŒ";
 					break;
-				case (9): cout << " Äåâÿòü";
+				case (9): cout << " Ð”ÐµÐ²ÑÑ‚ÑŒ";
 					break;
 				default:
 					break;
@@ -275,8 +274,7 @@ int main() {
 		}
 		else
 		{
-			cout << "×èñëî ïðåâûøàåò ëèìèò";
+			cout << "Ð§Ð¸ÑÐ»Ð¾ Ð¿Ñ€ÐµÐ²Ñ‹ÑˆÐ°ÐµÑ‚ Ð»Ð¸Ð¼Ð¸Ñ‚";
 		}
 	}
 }
-*/
